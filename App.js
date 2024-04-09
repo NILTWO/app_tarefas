@@ -66,6 +66,8 @@ export default function App() {
     return (
       <ScrollView style={{flex:1}}>
         <StatusBar hidden></StatusBar>
+        <Text>Aplicativo de Tarefas</Text>
+        <Text>V1.0.0</Text>
         <Modal 
           animationType='slide' 
           transparent={true}
@@ -110,6 +112,10 @@ export default function App() {
         <TouchableOpacity style={styles.btnAddTarefa} onPress={()=>setModal(true)}>
           <Text style={{textAlign:"center", color:"black"}}>Adicionar Tarefa</Text>
         </TouchableOpacity>
+
+        <Text>Aplicativo de Tarefas</Text>
+        <Text>V1.0.0</Text>
+
         
         {/* <View style={styles.teste}>
           <View style={styles.testeMenor}>
